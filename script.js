@@ -63,5 +63,4 @@ function checkAnswers() {
   
     // Display result
     document.getElementById('results').innerHTML = result;
-  }
-  
+  } 
