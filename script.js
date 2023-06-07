@@ -198,7 +198,7 @@ function checkAnswers() {
     }
 
     // Check Dublin Spider answers
-    if (dublinSpiderGlass === 'tumbler-alto' && dublinSpiderSugar === '' && dublinSpiderLemon === '' && dublinSpiderBitter === 'angostura' && dublinSpiderLiqueur === '' && dublinSpiderLiqueur2 === '' && dublinSpiderWhiskey === 'original' && dublinSpiderSoda === '' && dublinSpiderGarnish === '' && dublinSpiderIce === 'build') {
+    if (dublinSpiderGlass === 'tumbler-alto' && dublinSpiderSugar === '' && dublinSpiderLemon === '' && dublinSpiderBitter === 'angostura' && dublinSpiderLiqueur === '' && dublinSpiderLiqueur2 === '' && dublinSpiderWhiskey === 'original' && dublinSpiderSoda === 'ginger-beer' && dublinSpiderGarnish === '' && dublinSpiderIce === 'build') {
       score += 1;
     }
 
@@ -223,12 +223,12 @@ function checkAnswers() {
     }
 
     // Check Boulevardier answers
-    if (boulevardierGlass === 'tumbler-basso' && boulevardierSugar === '' && boulevardierLemon === '' && boulevardierBitter === 'campari' && boulevardierLiqueur === 'vermouth' && boulevardierLiqueur2 === '' && boulevardierWhiskey === 'bb' && boulevardierSoda === '' && boulevardierGarnish === '' && boulevardierIce === 'build') {
+    if (boulevardierGlass === 'tumbler-basso' && boulevardierSugar === '' && boulevardierLemon === '' && boulevardierBitter === 'campari' && boulevardierLiqueur === 'vermouth-rosso' && boulevardierLiqueur2 === '' && boulevardierWhiskey === 'bb' && boulevardierSoda === '' && boulevardierGarnish === '' && boulevardierIce === 'build') {
       score += 1;
     }
 
     // Check Godfather answers
-    if (godfatherGlass === 'tumbler-basso' && godfatherSugar === '' && godfatherLemon === '' && godfatherBitter === '' && godfatherLiqueur === 'amaretto-disaronno' && godfatherLiqueur2 === '' && godfatherWhiskey === 'bb' && godfatherSoda === '' && godfatherGarnish === '' && godfatherIce === 'build') {
+    if (godfatherGlass === 'tumbler-basso' && godfatherSugar === '' && godfatherLemon === '' && godfatherBitter === '' && godfatherLiqueur === 'amaro-disaronno' && godfatherLiqueur2 === '' && godfatherWhiskey === 'bb' && godfatherSoda === '' && godfatherGarnish === '' && godfatherIce === 'build') {
       score += 1;
     }
 
@@ -246,15 +246,15 @@ function checkAnswers() {
     if (score === 15) {
       result = 'Complimenti! Hai risposto correttamente a tutte le domande!';
     } else if (score === 14) {
-      result = 'Hai risposto correttamente a 14 domanda su 15. Puoi fare di meglio!';
+      result = 'Hai risposto correttamente a 14 domanda su 15. Continua a migliorare!';
     } else if (score === 13) {
-      result = 'Hai risposto correttamente a 13 domanda su 15. Puoi fare di meglio!';
+      result = 'Hai risposto correttamente a 13 domanda su 15. Continua a migliorare!';
     } else if (score === 12) {
-      result = 'Hai risposto correttamente a 12 domanda su 15. Puoi fare di meglio!';
+      result = 'Hai risposto correttamente a 12 domanda su 15. Continua a migliorare!';
     } else if (score === 11) {
-      result = 'Hai risposto correttamente a 11 domanda su 15. Puoi fare di meglio!';
+      result = 'Hai risposto correttamente a 11 domanda su 15. Continua a migliorare!';
     } else if (score === 10) {
-      result = 'Hai risposto correttamente a 10 domanda su 15. Puoi fare di meglio!';
+      result = 'Hai risposto correttamente a 10 domanda su 15. Continua a migliorare!';
     } else if (score === 9) {
       result = 'Hai risposto correttamente a 9 domanda su 15. Puoi fare di meglio!';
     } else if (score === 8) {
@@ -264,15 +264,15 @@ function checkAnswers() {
     } else if (score === 6) {
       result = 'Hai risposto correttamente a 6 domanda su 15. Puoi fare di meglio!';
     } else if (score === 5) {
-      result = 'Hai risposto correttamente a 5 domanda su 15. Puoi fare di meglio!';
+      result = 'Hai risposto correttamente a 5 domanda su 15. Riprova!';
     } else if (score === 4) {
-      result = 'Hai risposto correttamente a 4 domanda su 15. Puoi fare di meglio!';
+      result = 'Hai risposto correttamente a 4 domanda su 15. Riprova!';
     } else if (score === 3) {
-      result = 'Hai risposto correttamente a 3 domanda su 15. Puoi fare di meglio!';
+      result = 'Hai risposto correttamente a 3 domanda su 15. Riprova!';
     } else if (score === 2) {
-      result = 'Hai risposto correttamente a 2 domande su 15. Continua a migliorare!';
+      result = 'Hai risposto correttamente a 2 domande su 15. Riprova!';
     } else if (score === 1) {
-      result = 'Hai risposto correttamente a 1 domanda su 15. Puoi fare di meglio!';
+      result = 'Hai risposto correttamente a 1 domanda su 15. Riprova!';
     } else {
       result = 'Hai risposto correttamente a 0 domande su 15. Riprova!';
     }
